@@ -2,6 +2,7 @@
 #include <string.h>
 #define LEN 1001
 #define MAX(X, Y) ((X) > (Y) ? (X) : (Y))
+#define MOD 1000
 
 char str1[LEN];
 char str2[LEN];
