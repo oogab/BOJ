@@ -50,8 +50,8 @@ int main(void) {
         edges[b].push_back(a);
     }
     for(int i=1; i<=n; i++) {
-        sort(edges[i].begin(), edges[i].end()); // 이거 왜 소팅 해줘야 하지... 아래 때문에ㅋㅋ
-    }                                           // 단, 방문할 수 있는 정점이 여러 개인 경우에는 정점 번호가 작은 것을 먼저 방문하고,
+        sort(edges[i].begin(), edges[i].end()); 
+    }
     dfs(v);
     puts("");
     bfs(v);
